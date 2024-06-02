@@ -5,7 +5,7 @@ const CORS_HEADERS = {
 };
 
 const server = Bun.serve({
-    port: 3000,
+    port: 80,
     async fetch(req) {
         const url = new URL(req.url);
 
